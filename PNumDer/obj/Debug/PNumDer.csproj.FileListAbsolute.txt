@@ -1,0 +1,13 @@
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\bin\Debug\PNumDer.exe.config
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\bin\Debug\PNumDer.exe
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\bin\Debug\PNumDer.pdb
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\bin\Debug\PNumExt.exe
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\bin\Debug\PNumExt.pdb
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\bin\Debug\PNumExt.exe.config
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\obj\Debug\PNumDer.csprojAssemblyReference.cache
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\obj\Debug\PNumDer.Form1.resources
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\obj\Debug\PNumDer.Properties.Resources.resources
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\obj\Debug\PNumDer.csproj.GenerateResource.cache
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\obj\Debug\PNumDer.csproj.CopyComplete
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\obj\Debug\PNumDer.exe
+C:\Users\Andrey\source\repos\PNumDer\PNumDer\obj\Debug\PNumDer.pdb
