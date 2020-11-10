@@ -8,15 +8,10 @@ namespace developingClasses
         protected string valueNumber;
         protected int base_value;
         protected int accuracy;
-        protected bool ifNegative;
 
         public PNumber(string value, string base_value, string accuracy)
         {
-/*            if (value.Contains("-"))
-            {
-                value.TrimStart('-');
-                ifNegative = true;
-            }*/
+
             this.valueNumber = IfCorrectNumber(value, Convert.ToInt32(base_value));
             this.base_value = checkInputData(base_value);
             this.accuracy = checkInputData(accuracy);
@@ -28,11 +23,7 @@ namespace developingClasses
 
         public PNumber(int value, int base_value, int accuracy)
         {
-/*            if (value < 0)
-            {
-                value *= -1;
-                ifNegative = true;
-            }*/
+
             this.valueNumber = Convert.ToString(value);
             this.base_value = base_value;
             this.accuracy = accuracy;
@@ -262,13 +253,13 @@ namespace developingClasses
 
         }
 
-        public string translateToNeedBaseValue(int base_valueNeed)
+        public string translateToNeedBaseValue(int base_valueNeed, int accuracy)
         {
-            if (base_valueNeed == 10) return Convert.ToString(translatorTo10(this.valueNumber, this.base_value, this.accuracy));
+            if (base_valueNeed == 10) return Convert.ToString(translatorTo10(this.valueNumber, this.base_value, accuracy));
 
 
-            double ten = translatorTo10(this.valueNumber, this.base_value, this.accuracy);
-            return translatorToP(ten, base_valueNeed, this.accuracy);
+            double ten = translatorTo10(this.valueNumber, this.base_value, accuracy);
+            return translatorToP(ten, base_valueNeed, accuracy);
         }
 
         public static PNumber operator +(PNumber a, PNumber b)

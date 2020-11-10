@@ -4,3 +4,9 @@ C:\Users\Andrey\source\repos\PNumDer\PNumExt\bin\Debug\PNumExt.pdb
 C:\Users\Andrey\source\repos\PNumDer\PNumExt\obj\Debug\developingClasses.csprojAssemblyReference.cache
 C:\Users\Andrey\source\repos\PNumDer\PNumExt\obj\Debug\PNumExt.exe
 C:\Users\Andrey\source\repos\PNumDer\PNumExt\obj\Debug\PNumExt.pdb
+C:\Users\Andrey\Desktop\funny_sheet\CS\Laba_4\PNumDer\PNumExt\bin\Debug\PNumExt.exe.config
+C:\Users\Andrey\Desktop\funny_sheet\CS\Laba_4\PNumDer\PNumExt\bin\Debug\PNumExt.exe
+C:\Users\Andrey\Desktop\funny_sheet\CS\Laba_4\PNumDer\PNumExt\bin\Debug\PNumExt.pdb
+C:\Users\Andrey\Desktop\funny_sheet\CS\Laba_4\PNumDer\PNumExt\obj\Debug\developingClasses.csprojAssemblyReference.cache
+C:\Users\Andrey\Desktop\funny_sheet\CS\Laba_4\PNumDer\PNumExt\obj\Debug\PNumExt.exe
+C:\Users\Andrey\Desktop\funny_sheet\CS\Laba_4\PNumDer\PNumExt\obj\Debug\PNumExt.pdb

@@ -14,7 +14,7 @@ namespace developingClasses
 
             Editor c = new Editor();
             a = new PNumExt("-FA", "16", "0");
-            Console.WriteLine(a.translateToNeedBaseValue(10));
+            
         }
     }
 }

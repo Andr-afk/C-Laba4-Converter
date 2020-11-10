@@ -14,7 +14,7 @@ namespace PNumDer
     public partial class Form1 : Form
     {
 
-        Editor edit = new Editor();
+        Cntrl edit = new Cntrl();
 
         public Form1()
         {
@@ -40,20 +40,28 @@ namespace PNumDer
 
         private void btnBackspace_Click(object sender, EventArgs e) // обработка нажатий на кнопки
         {
-            Button b = (sender as Button);
-            byte pressed_button = Convert.ToByte(b.TabIndex);
-            ValueNumber.Text = edit.DoEdit(pressed_button);
-            Do_translate();
+            try
+            {
+                Button b = (sender as Button);
+                byte pressed_button = Convert.ToByte(b.TabIndex);
+                ValueNumber.Text = edit.DoEdit(pressed_button);
+                Do_translate();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
         }
 
 
         private void Do_translate()
         {
             string base_value = Convert.ToString(UD_baseValue.Value);
+            string res_base = Convert.ToString(UD_needBaseValue.Value);
             string accuracy = Convert.ToString(UD_accuracy.Value);
 
-            PNumExt a = new PNumExt(edit.Number, base_value, accuracy);
-            tb_result.Text = a.translateToNeedBaseValue(Convert.ToInt32(UD_needBaseValue.Value));
+            tb_result.Text = edit.Converter(base_value, res_base, accuracy);
         }
 
         private void EnableButton()

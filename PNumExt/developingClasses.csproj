@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cntrl.cs" />
     <Compile Include="Editor.cs" />
     <Compile Include="PNumber.cs" />
     <Compile Include="PNumExt.cs" />

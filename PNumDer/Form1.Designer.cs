@@ -424,7 +424,7 @@
             this.UD_needBaseValue.Size = new System.Drawing.Size(120, 39);
             this.UD_needBaseValue.TabIndex = 54;
             this.UD_needBaseValue.Value = new decimal(new int[] {
-            2,
+            10,
             0,
             0,
             0});
